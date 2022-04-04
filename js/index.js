@@ -1,9 +1,33 @@
 console.log("Your index.js file is loaded correctly");
 
-$(".downloadResume").on("click", function(){
-    $(".fadeMe").fadeToggle("slow");
+$(".letsRole").mouseover(function(){
+    $("#letsRoleDes").css("display", "block");
 });
 
-$("letsRole").mouseover(function(){
-    $("letsRole").css("background-color", "white");
+$(".letsRole").mouseleave(function(){
+    $("#letsRoleDes").css("display", "none");
+});
+
+$(".doeWebsite").mouseover(function(){
+    $("#doeWebsiteDes").css("display", "block");
+});
+
+$(".doeWebsite").mouseleave(function(){
+    $("#doeWebsiteDes").css("display", "none");
+});
+
+$(".hartWebsite").mouseover(function(){
+    $("#hartWebsiteDes").css("display", "block");
+});
+
+$(".doeWebsite").mouseleave(function(){
+    $("#hartWebsiteDes").css("display", "none");
+});
+
+$(".placeHolder").mouseover(function(){
+    $("#placeHolderDes").css("display", "block");
+});
+
+$(".placeHolder").mouseleave(function(){
+    $("#placeHolderDes").css("display", "none");
 });

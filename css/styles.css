@@ -39,7 +39,7 @@ ul {
 
 h1 {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Coiny";
 }
 
 .bioImg {
@@ -53,7 +53,7 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Comfortaa";
 }
 
 footer {
@@ -165,20 +165,68 @@ section {
    ;
 }
 
+#letsRoleDes {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#doeWebsiteDes {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#hartWebsiteDes {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#placeHolderDes {
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
 .letsRole {
     grid-area: letsRole;
+    position: relative;
 }
 
 .doeWebsite {
     grid-area: doeWebsite;
+    position: relative;
 }
 
 .hartWebsite {
     grid-area: hartWebsite;
+    position: relative;
 }
 
 .placeHolder {
     grid-area: placeHolder;
+    position: relative;
 }
 
 .viewProjects {
