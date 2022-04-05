@@ -20,7 +20,7 @@ $(".hartWebsite").mouseover(function(){
     $("#hartWebsiteDes").css("display", "block");
 });
 
-$(".doeWebsite").mouseleave(function(){
+$(".hartWebsite").mouseleave(function(){
     $("#hartWebsiteDes").css("display", "none");
 });
 
