@@ -168,44 +168,44 @@ section {
 #letsRoleDes {
     position: absolute;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
 
 #doeWebsiteDes {
     position: absolute;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
 
 #hartWebsiteDes {
     position: absolute;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
 
 #placeHolderDes {
     position: absolute;
     width: 100%;
-    padding: 20px;
+    padding: 50px;
     height: 100%;
     top: 0px;
     left: 0px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: none;
 }
 
@@ -227,6 +227,27 @@ section {
 .placeHolder {
     grid-area: placeHolder;
     position: relative;
+}
+
+button {
+    background-color: #6c00f0;
+    font-size: 20px;
+    color: white;
+    width: auto;
+    height: 50px;
+    font-family: "Comfortaa";
+    border-radius: 16px;
+}
+
+.workTitle {
+    font-family: "Coiny";
+    font-size: 36px;
+}
+
+.descriptionText {
+    font-size: 24px;
+    padding-top: 50px;
+    font-family: "Comfortaa";
 }
 
 .viewProjects {
